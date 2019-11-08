@@ -3,18 +3,15 @@
     "description": "To test the mail sender and learn the package creation",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "manu.joseph",
-            "email": "manu.joseph@cubettech.com"
-        }
-    ],
+    "authors": [{
+        "name": "manu.joseph",
+        "email": "manu.joseph@cubettech.com"
+    }],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-           "psr-4": {
-               "Manuj\\Sender\\": "package/send/src"
-           }
-       },
+        "psr-4": {
+            "Manuj\\Sender\\": "package/send/src"
+        }
+    }
 }
-            
